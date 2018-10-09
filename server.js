@@ -42,7 +42,7 @@ db.once("open", function() {
 // saved articles.
 app.get("/api/saved", function(req, res) {
 
-  // We will find all the records, sort it in descending order, then limit the records to 5
+  //this helps limiting the order by 5 art
   Article.find({}).limit(10).exec(function(err, doc) {
     if (err) {
       console.log(err);
