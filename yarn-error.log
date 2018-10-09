@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Heroku\client\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\Nikit\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Nikit\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Users\Nikit\Desktop\MongoDB\Server\4.0\bin;C:\ProgramData\chocolatey\bin;C:\Users\Nikit\Desktop\MongoDB\Server\4.0\bin;C:\Users\Nikit\AppData\Local\.meteor;C:\Program Files\Heroku\client\node_modules\yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "nyt-react-search-take-two",
+    "version": "1.0.0",
+    "description": "Mongo express react node app that lets users search for nytimes articles and save them",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Meggin/nyt-react-search-take-two.git"
+    },
+    "author": "Meggin Kearney",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Meggin/nyt-react-search-take-two/issues"
+    },
+    "homepage": "https://github.com/Meggin/nyt-react-search-take-two#readme",
+    "dependencies": {
+      "axios": "^0.16.2",
+      "body-parser": "^1.18.3",
+      "express": "^4.16.3",
+      "mongoose": "^4.13.17",
+      "morgan": "^1.9.1",
+      "react": "^0.14.3",
+      "react-dom": "^15.6.1",
+      "react-router": "^4.1.1",
+      "react-router-dom": "^4.1.1"
+    },
+    "devDependencies": {
+      "babel-core": "^6.3.13",
+      "babel-loader": "^6.2.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "webpack": "^1.13.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 3221225786
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c node server.js
+  Directory: C:\Users\Nikit\Desktop\nyt-react-search-take-two
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files\Heroku\client\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files\Heroku\client\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files\Heroku\client\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
