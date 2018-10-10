@@ -26,7 +26,7 @@ app.use(express.static("./public"));
 // -------------------------------------------------
 
 // MongoDB Config
-mongoose.connect();
+mongoose.connect("mongodb://<Nadia22>:<NadiaNikita1>@ds227243.mlab.com:27243/nytreact");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
